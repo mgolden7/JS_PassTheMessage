@@ -1,0 +1,60 @@
+body {
+    background-image: url(/IMAGES/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+    .container1A {
+        display: flex;
+        background: rgb(255, 255, 255, .8);
+        box-shadow: 0px 0px 40px black;
+        border-radius: 50%;
+        border:1px solid rgb(1, 154, 1);
+        padding: 30px;
+        height: 65vh;
+        width: 65vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .container2A {
+
+        }
+
+            .container3A {
+                
+            }
+
+                .PTMHeader1A {
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 2px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+
+                .PTMHeader2A {
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 2px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+            .inputs {
+                border: 1px dotted black;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+                .label {
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 1px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    margin: 0%;
+                }
