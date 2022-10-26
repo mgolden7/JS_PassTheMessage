@@ -1,0 +1,102 @@
+body {
+    background-image: url(/IMAGES/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+    .container1A {
+        display: flex;
+        /*flex-direction: column;*/
+        background: rgb(255, 255, 255, .8);
+        box-shadow: 0px 0px 40px black;
+        border-radius: 50%;
+        border:2px solid rgb(1, 154, 1);
+        padding: 30px;
+        height: 65vh;
+        width: 65vw;
+        justify-content: center;
+        align-items: center;
+        /*border: 5px dotted red;*/
+        
+    }
+
+        .container2A {
+            /*border: 2px solid blue;*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: inherit;
+
+        }
+
+            .container3A {
+                /*border: 2px solid purple;*/
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: inherit;
+            }
+
+                .PTMHeader1A {
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 2px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-bottom: 0px;
+                    
+                }
+
+                .PTMHeader2A {
+                    /*border: 2px solid red;*/
+                    max-width:50vw;
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 2px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-bottom: 20px;
+                    margin-right: 40px;
+                    margin-left: 40px;
+                    overflow-wrap: break-word;
+                }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+                .label {
+                    color: rgb(73, 73, 73);
+                    text-shadow: 0px 1px 1px rgb(86, 199, 86);
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    
+                }
+
+                .messageInput {
+                    border-radius: 3px;
+                    border: 1px solid rgb(89, 89, 89);
+                    padding: 5px;
+                    box-shadow: 0px 1px 2px gray;
+                }
+
+                .button {
+                    border: 1px solid rgb(74, 74, 74);
+                    border-radius: 3px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 5px;
+                    box-shadow: 0px 0px 2px gray;
+                }
+
+                    .icon {
+                        height: 20px;
+                        
+                    }
